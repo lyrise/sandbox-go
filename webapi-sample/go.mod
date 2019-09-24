@@ -1,4 +1,4 @@
-module github.com/lyrise/sandbox-go/sample/simple_webapi
+module github.com/lyrise/sandbox-go/webapi-sample
 
 go 1.12
 
