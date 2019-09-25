@@ -1,4 +1,4 @@
-# Simple gRPC
+# gRPC Sample
 
 ## References
 

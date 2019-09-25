@@ -1,4 +1,4 @@
-# Simple WebAPI
+# WebAPI Sample
 
 ## References
 
