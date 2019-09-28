@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package api;
+
+service Animal {
+  rpc GetName (GetNameArgument) returns (GetNameResponse);
+}
+
+message GetNameArgument {
+  uint32 id = 1;
+}
+
+message GetNameResponse {
+  string name = 1;
+}

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	pb "github.com/lyrise/sandbox-go/grpc-simple/api"
+	api "github.com/lyrise/sandbox-go/grpc-simple/gens/api"
 	"google.golang.org/grpc"
 )
 
@@ -16,9 +16,9 @@ func main() {
 		log.Fatal("client connection error:", err)
 	}
 	defer conn.Close()
-	client := pb.NewCatClient(conn)
-	message := &pb.GetMyCatMessage{TargetCat: "tama"}
-	res, err := client.GetMyCat(context.TODO(), message)
+	client := api.NewAnimalClient(conn)
+	message := &api.GetNameArgument{Id: 2}
+	res, err := client.GetName(context.TODO(), message)
 	fmt.Printf("result:%#v \n", res)
 	fmt.Printf("error::%#v \n", err)
 }

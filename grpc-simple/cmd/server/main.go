@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	pb "github.com/lyrise/sandbox-go/grpc-simple/api"
-	service "github.com/lyrise/sandbox-go/grpc-simple/rpc"
+	api "github.com/lyrise/sandbox-go/grpc-simple/gens/api"
+	service "github.com/lyrise/sandbox-go/grpc-simple/rpc/service"
 	"google.golang.org/grpc"
 )
 
@@ -15,8 +15,7 @@ func main() {
 		log.Fatalln(err)
 	}
 	server := grpc.NewServer()
-	catService := &service.MyCatService{}
-	// 実行したい実処理をseverに登録する
-	pb.RegisterCatServer(server, catService)
+	animalService := &service.AnimalService{}
+	api.RegisterAnimalServer(server, animalService)
 	server.Serve(listenPort)
 }
