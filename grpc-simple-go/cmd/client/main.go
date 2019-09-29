@@ -10,7 +10,6 @@ import (
 )
 
 func main() {
-	//sampleなのでwithInsecure
 	conn, err := grpc.Dial("127.0.0.1:19003", grpc.WithInsecure())
 	if err != nil {
 		log.Fatal("client connection error:", err)
