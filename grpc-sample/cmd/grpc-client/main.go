@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	api "github.com/lyrise/sandbox-go/grpc-simple/gens/api"
+	api "github.com/lyrise/sandbox-go/grpc-sample/gens/api"
 	"google.golang.org/grpc"
 )
 

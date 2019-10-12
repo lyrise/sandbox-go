@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "channel-sample"
+		},
+		{
+			"path": "grpc-sample"
+		},
+		{
+			"path": "webapi-sample"
+		}
+	],
+	"settings": {}
+}
