@@ -11,6 +11,7 @@ github.com/golang/protobuf v1.3.2/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5y
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
 github.com/lyrise/sandbox-go v0.0.0-20190925034628-b2db621f01a6 h1:fAV4e1dytYLXO/LC8Wn/IvjfXJU52E2B1ZHC+wqM0sA=
 github.com/lyrise/sandbox-go v0.0.0-20190928065307-a5c616b65d24 h1:CtHfKZvo3uHBIcDv/bZlvA/sLngx3NpRL4EzV/xme7E=
+github.com/lyrise/sandbox-go v0.0.0-20191012050446-04f95f747523 h1:uURddK77EodS+F/Zmb6goLF/yd3lsPY7MQjDTSybm78=
 github.com/lyrise/sandbox-go/grpc-simple v0.0.0-20190928065307-a5c616b65d24 h1:sJQL8Yl3KoGrfqwWysA2vgq0z8nxRa+wLx9hRFdE6RI=
 github.com/lyrise/sandbox-go/grpc-simple v0.0.0-20190928065307-a5c616b65d24/go.mod h1:kr5oZGRjT3kQvT74bk40ND5bVTcNSp4IsD4I8av1gss=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=

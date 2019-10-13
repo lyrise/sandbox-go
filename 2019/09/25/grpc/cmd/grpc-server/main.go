@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	api "github.com/lyrise/sandbox-go/grpc-sample/gens/api"
-	service "github.com/lyrise/sandbox-go/grpc-sample/rpc/service"
+	api "github.com/lyrise/sandbox-go/2019/09/25/grpc/gens/api"
+	service "github.com/lyrise/sandbox-go/2019/09/25/grpc/rpc/service"
 	"google.golang.org/grpc"
 )
 

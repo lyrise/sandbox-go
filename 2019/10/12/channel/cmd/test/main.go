@@ -4,7 +4,7 @@ import (
 	"log"
 	"strconv"
 
-	core "github.com/lyrise/sandbox-go/channel-sample/core"
+	core "github.com/lyrise/sandbox-go/2019/10/12/channel/core"
 )
 
 func main() {
