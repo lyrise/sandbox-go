@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/lyrise/sandbox-go/grpc-sample/gens/api"
+	"github.com/lyrise/sandbox-go/2019/09/25/grpc/gens/api"
 )
 
 type AnimalService struct {

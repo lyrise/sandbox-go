@@ -1,4 +1,4 @@
-module github.com/lyrise/sandbox-go/grpc-sample
+module github.com/lyrise/sandbox-go/2019/09/25/grpc
 
 go 1.13
 

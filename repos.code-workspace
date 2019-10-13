@@ -4,13 +4,16 @@
 			"path": "."
 		},
 		{
-			"path": "channel-sample"
+			"path": "2019/10/13/messaging"
 		},
 		{
-			"path": "grpc-sample"
+			"path": "2019/10/12/channel"
 		},
 		{
-			"path": "webapi-sample"
+			"path": "2019/09/25/grpc"
+		},
+		{
+			"path": "2019/09/16/webapi"
 		}
 	],
 	"settings": {}
