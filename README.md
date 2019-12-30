@@ -1,1 +1,5 @@
-# Sandbox for Golang
+# Sandbox for Go
+
+## License
+
++ MIT License
