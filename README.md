@@ -1,4 +1,4 @@
-# Sandbox for Go
+# Sandbox
 
 ## License
 
